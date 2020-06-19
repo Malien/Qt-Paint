@@ -13,7 +13,6 @@
 #include <memory>
 #include <optional>
 #include <src/model/Tools.hpp>
-#include <src/model/Drawable.hpp>
 
 class PaintWidget : public QGraphicsView {
 Q_OBJECT
