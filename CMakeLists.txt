@@ -20,6 +20,6 @@ add_executable(Paint
         src/PaintWindow/PaintWindow.cpp
         src/PaintWindow/PaintWindow.hpp
         src/PaintWindow/PaintWindow.ui
-        src/PaintWidget/PaintWidget.cpp src/PaintWidget/PaintWidget.hpp src/model/Tools.hpp src/model/Drawable.hpp)
+        src/PaintWidget/PaintWidget.cpp src/PaintWidget/PaintWidget.hpp src/model/Tools.hpp)
 
 target_link_libraries(Paint PRIVATE Qt5::Widgets)

@@ -32,126 +32,24 @@ Q_OBJECT
     static inline QPen noBorder = QPen(QColor::fromRgb(0, 0, 0, 0));
 
 public:
-    explicit PaintWidget(QWidget *parent = nullptr) noexcept: QGraphicsView(parent) {
-        setViewportUpdateMode(SmartViewportUpdate);
-        setRenderHints(QPainter::Antialiasing | QPainter::SmoothPixmapTransform);
-        scene.setStickyFocus(false);
-        setScene(&scene);
-    }
+    explicit PaintWidget(QWidget *parent = nullptr) noexcept;
 
 public slots:
 
-    void clear() {
-        scene.clear();
-    };
+    void clear() { scene.clear(); };
 
-    void setTool(const ToolType tool) {
-        if (currentTool == ToolType::Triangle && triangleCount != 3) {
-            scene.removeItem(currentTriangle);
-        }
-        currentTool = tool;
-    }
+    void setTool(ToolType tool);
 
-    void setColor(const QColor &color) {
-        currentColor = color;
-    }
+    void setColor(const QColor &color) { currentColor = color; }
 
-    void setBrushSize(float size) {
-        brushSize = size;
-    }
+    void setBrushSize(float size) { brushSize = size; }
 
 protected:
-    void mousePressEvent(QMouseEvent *event) override {
-        dragStart = mapToScene(event->pos());
-        switch (currentTool) {
+    void mousePressEvent(QMouseEvent *event) override;
 
-            case ToolType::Rectangle:
-                currentRect = scene.addRect(
-                        dragStart->x(),
-                        dragStart->y(),
-                        0,
-                        0,
-                        noBorder,
-                        QBrush(currentColor));
-                currentRect->setVisible(true);
-                break;
+    void mouseMoveEvent(QMouseEvent *event) override;
 
-            case ToolType::Circle:
-                currentCircle = scene.addEllipse(
-                        dragStart->x(),
-                        dragStart->y(),
-                        0,
-                        0,
-                        noBorder,
-                        QBrush(currentColor));
-                currentCircle->setVisible(true);
-                break;
-
-            case ToolType::Triangle:
-                if (currentTriangle && triangleCount < 3) {
-                    auto polygon = currentTriangle->polygon();
-                    polygon.push_back(*dragStart);
-                    currentTriangle->setPolygon(polygon);
-                    triangleCount++;
-                } else {
-                    currentTriangle = scene.addPolygon(QPolygonF({*dragStart}), noBorder, QBrush(currentColor));
-                    triangleCount = 1;
-                }
-                break;
-
-            default:
-                break;
-        }
-    }
-
-    void mouseMoveEvent(QMouseEvent *event) override {
-        if (dragStart) {
-            switch (currentTool) {
-                case ToolType::Rectangle:
-                    if (currentRect) {
-                        const auto mappedPosition = mapToScene(event->pos());
-                        const auto[left, right] = std::minmax(mappedPosition.x(), dragStart->x());
-                        const auto[top, bottom] = std::minmax(mappedPosition.y(), dragStart->y());
-                        const QRectF rect(left, top, right - left, bottom - top);
-                        currentRect->setRect(rect);
-                    }
-                    break;
-
-                case ToolType::Circle:
-                    if (currentCircle)
-                        currentCircle->setRect(QRectF(*dragStart, mapToScene(event->pos())));
-                    break;
-
-                case ToolType::Brush: {
-                    const auto currentPosition = mapToScene(event->pos());
-                    scene.addLine(
-                            dragStart->x(),
-                            dragStart->y(),
-                            currentPosition.x(),
-                            currentPosition.y(),
-                            QPen(
-                                    currentColor,
-                                    brushSize,
-                                    Qt::SolidLine,
-                                    Qt::RoundCap,
-                                    Qt::RoundJoin
-                            )
-                    );
-                    dragStart = currentPosition;
-                } break;
-
-                default:
-                    break;
-            }
-        }
-        QGraphicsView::mouseMoveEvent(event);
-    }
-
-    void mouseReleaseEvent(QMouseEvent *event) override {
-        dragStart = std::nullopt;
-        currentRect = nullptr;
-        currentCircle = nullptr;
-    }
+    void mouseReleaseEvent(QMouseEvent *event) override;
 
 };
 
