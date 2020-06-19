@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Paint" targetName="Paint" />
+      <config projectName="Paint" targetName="Test" />
+      <config projectName="Paint" targetName="Paint_autogen" />
+      <config projectName="Paint" targetName="Test_autogen" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Release" CONFIG_NAME="Release" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="733d1ccb-bea8-428f-a72e-2a51d23857f7" name="Default Changelist" comment="Added ability to add and remove contacts" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectId" id="1c3MMrVt0twBoZIS6E7DwirkZ9x" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/PaintWindow" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="CMakeSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/PaintWindow" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/PaintWindow" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/model" />
+      <recent name="$PROJECT_DIR$/MainWindow" />
+    </key>
+  </component>
+  <component name="RunManager" selected="CMake Application.Paint">
+    <configuration name="Paint" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Paint" TARGET_NAME="Paint" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Paint" RUN_TARGET_NAME="Paint">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Paint_autogen" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Paint" TARGET_NAME="Paint_autogen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Paint" />
+      <item itemvalue="CMake Application.Paint_autogen" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="733d1ccb-bea8-428f-a72e-2a51d23857f7" name="Default Changelist" comment="" />
+      <created>1589752778761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589752778761</updated>
+      <workItem from="1589752781219" duration="528000" />
+      <workItem from="1589753413257" duration="6822000" />
+      <workItem from="1589793722792" duration="6840000" />
+      <workItem from="1589812489738" duration="13908000" />
+      <workItem from="1590756438142" duration="9759000" />
+      <workItem from="1590769227626" duration="6466000" />
+      <workItem from="1591450231209" duration="159000" />
+      <workItem from="1591455670180" duration="631000" />
+      <workItem from="1591456810835" duration="532000" />
+      <workItem from="1592481146900" duration="110000" />
+      <workItem from="1592481267110" duration="431000" />
+      <workItem from="1592481741382" duration="5699000" />
+      <workItem from="1592559902647" duration="253000" />
+      <workItem from="1592560179658" duration="19011000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1589812831637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589812831637</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Unified header files extensions to all be .hpp">
+      <created>1589812911412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589812911412</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added phone editing capabilities">
+      <created>1590763293414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590763293414</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added ability to add and remove phone number from list">
+      <created>1590769198951</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590769198951</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added contact filtering">
+      <created>1590791317945</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590791317945</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added ability to add and remove contacts">
+      <created>1590834321039</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590834321039</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="Unified header files extensions to all be .hpp" />
+    <MESSAGE value="Added phone editing capabilities" />
+    <MESSAGE value="Added ability to add and remove phone number from list" />
+    <MESSAGE value="Added contact filtering" />
+    <MESSAGE value="Added ability to add and remove contacts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added ability to add and remove contacts" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="548" y="272" key="#Paint_autogen" timestamp="1592593610468">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="547" y="272" key="#Paint_autogen/42.23.1638.1027@42.23.1638.1027" timestamp="1592560257218" />
+    <state x="548" y="272" key="#Paint_autogen/44.23.1636.1027@44.23.1636.1027" timestamp="1592593610468" />
+    <state x="324" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592560271440">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state x="324" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.23.1638.1027@42.23.1638.1027" timestamp="1592560271440" />
+    <state x="326" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1592481345434" />
+    <state x="664" y="237" key="#com.intellij.ide.util.MemberChooser" timestamp="1592575235755">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="664" y="237" key="#com.intellij.ide.util.MemberChooser/43.23.1637.1027@43.23.1637.1027" timestamp="1592575235755" />
+    <state x="665" y="237" key="#com.intellij.ide.util.MemberChooser/44.23.1636.1027@44.23.1636.1027" timestamp="1590832432654" />
+    <state x="601" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592593107119">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="599" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/42.23.1638.1027@42.23.1638.1027" timestamp="1592560382836" />
+    <state x="600" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/43.23.1637.1027@43.23.1637.1027" timestamp="1592575667014" />
+    <state x="601" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1592593107119" />
+    <state x="404" y="295" key="#xdebugger.evaluate" timestamp="1590833826839">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="1080" y="385" key="#xdebugger.evaluate/42.23.1638.1027@42.23.1638.1027" timestamp="1590764505088" />
+    <state x="404" y="295" key="#xdebugger.evaluate/43.23.1637.1027@43.23.1637.1027" timestamp="1590833826839" />
+    <state x="405" y="112" key="CommitChangelistDialog2" timestamp="1590763269086">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="405" y="112" key="CommitChangelistDialog2/43.23.1637.1027@43.23.1637.1027" timestamp="1590763269086" />
+    <state width="1596" height="280" key="GridCell.Tab.0.bottom" timestamp="1592594083024">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1594" height="345" key="GridCell.Tab.0.bottom/41.23.1639.1027@41.23.1639.1027" timestamp="1590764718029" />
+    <state width="1596" height="345" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1592589796580" />
+    <state width="1596" height="280" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1592589862945" />
+    <state width="1596" height="280" key="GridCell.Tab.0.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1592594083024" />
+    <state width="1596" height="280" key="GridCell.Tab.0.center" timestamp="1592594083023">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1594" height="345" key="GridCell.Tab.0.center/41.23.1639.1027@41.23.1639.1027" timestamp="1590764718028" />
+    <state width="1596" height="345" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1592589796579" />
+    <state width="1596" height="280" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1592589862945" />
+    <state width="1596" height="280" key="GridCell.Tab.0.center/44.23.1636.1027@44.23.1636.1027" timestamp="1592594083023" />
+    <state width="1596" height="280" key="GridCell.Tab.0.left" timestamp="1592594083022">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1594" height="345" key="GridCell.Tab.0.left/41.23.1639.1027@41.23.1639.1027" timestamp="1590764718028" />
+    <state width="1596" height="345" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1592589796579" />
+    <state width="1596" height="280" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1592589862944" />
+    <state width="1596" height="280" key="GridCell.Tab.0.left/44.23.1636.1027@44.23.1636.1027" timestamp="1592594083022" />
+    <state width="1596" height="280" key="GridCell.Tab.0.right" timestamp="1592594083023">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state width="1594" height="345" key="GridCell.Tab.0.right/41.23.1639.1027@41.23.1639.1027" timestamp="1590764718029" />
+    <state width="1596" height="345" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1592589796580" />
+    <state width="1596" height="280" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1592589862945" />
+    <state width="1596" height="280" key="GridCell.Tab.0.right/44.23.1636.1027@44.23.1636.1027" timestamp="1592594083023" />
+    <state width="1596" height="345" key="GridCell.Tab.1.bottom" timestamp="1592589796581">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1594" height="345" key="GridCell.Tab.1.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1590764671745" />
+    <state width="1594" height="345" key="GridCell.Tab.1.bottom/41.23.1639.1027@41.23.1639.1027" timestamp="1590764718030" />
+    <state width="1596" height="345" key="GridCell.Tab.1.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1592589796581" />
+    <state width="1596" height="345" key="GridCell.Tab.1.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1592589770995" />
+    <state width="1594" height="345" key="GridCell.Tab.1.bottom/44.23.1636.1027@44.23.1636.1027" timestamp="1590833948231" />
+    <state width="1596" height="345" key="GridCell.Tab.1.center" timestamp="1592589796580">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1594" height="345" key="GridCell.Tab.1.center/40.23.1640.1027@40.23.1640.1027" timestamp="1590764671744" />
+    <state width="1594" height="345" key="GridCell.Tab.1.center/41.23.1639.1027@41.23.1639.1027" timestamp="1590764718030" />
+    <state width="1596" height="345" key="GridCell.Tab.1.center/42.23.1638.1027@42.23.1638.1027" timestamp="1592589796580" />
+    <state width="1596" height="345" key="GridCell.Tab.1.center/43.23.1637.1027@43.23.1637.1027" timestamp="1592589770994" />
+    <state width="1594" height="345" key="GridCell.Tab.1.center/44.23.1636.1027@44.23.1636.1027" timestamp="1590833948231" />
+    <state width="1596" height="345" key="GridCell.Tab.1.left" timestamp="1592589796580">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1594" height="345" key="GridCell.Tab.1.left/40.23.1640.1027@40.23.1640.1027" timestamp="1590764671744" />
+    <state width="1594" height="345" key="GridCell.Tab.1.left/41.23.1639.1027@41.23.1639.1027" timestamp="1590764718029" />
+    <state width="1596" height="345" key="GridCell.Tab.1.left/42.23.1638.1027@42.23.1638.1027" timestamp="1592589796580" />
+    <state width="1596" height="345" key="GridCell.Tab.1.left/43.23.1637.1027@43.23.1637.1027" timestamp="1592589770993" />
+    <state width="1594" height="345" key="GridCell.Tab.1.left/44.23.1636.1027@44.23.1636.1027" timestamp="1590833948230" />
+    <state width="1596" height="345" key="GridCell.Tab.1.right" timestamp="1592589796581">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1594" height="345" key="GridCell.Tab.1.right/40.23.1640.1027@40.23.1640.1027" timestamp="1590764671745" />
+    <state width="1594" height="345" key="GridCell.Tab.1.right/41.23.1639.1027@41.23.1639.1027" timestamp="1590764718030" />
+    <state width="1596" height="345" key="GridCell.Tab.1.right/42.23.1638.1027@42.23.1638.1027" timestamp="1592589796581" />
+    <state width="1596" height="345" key="GridCell.Tab.1.right/43.23.1637.1027@43.23.1637.1027" timestamp="1592589770994" />
+    <state width="1594" height="345" key="GridCell.Tab.1.right/44.23.1636.1027@44.23.1636.1027" timestamp="1590833948231" />
+    <state x="364" y="175" key="SettingsEditor" timestamp="1592481358492">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="363" y="175" key="SettingsEditor/43.23.1637.1027@43.23.1637.1027" timestamp="1591451853075" />
+    <state x="364" y="175" key="SettingsEditor/44.23.1636.1027@44.23.1636.1027" timestamp="1592481358492" />
+    <state x="463" y="276" key="Vcs.Push.Dialog.v2" timestamp="1590834329293">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="462" y="276" key="Vcs.Push.Dialog.v2/43.23.1637.1027@43.23.1637.1027" timestamp="1590763297158" />
+    <state x="463" y="276" key="Vcs.Push.Dialog.v2/44.23.1636.1027@44.23.1636.1027" timestamp="1590834329293" />
+    <state x="419" y="272" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1592577145268">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="419" y="272" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/43.23.1637.1027@43.23.1637.1027" timestamp="1592577145268" />
+    <state x="527" y="250" width="670" height="676" key="search.everywhere.popup" timestamp="1592589367505">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="526" y="250" width="671" height="676" key="search.everywhere.popup/42.23.1638.1027@42.23.1638.1027" timestamp="1592560156352" />
+    <state x="527" y="250" width="670" height="676" key="search.everywhere.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1592589367505" />
+    <state x="528" y="250" width="670" height="676" key="search.everywhere.popup/44.23.1636.1027@44.23.1636.1027" timestamp="1592481722190" />
+  </component>
+</project>
